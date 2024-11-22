@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pair Program: Animal Adoption Center</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Adopt a pet here</h1>
+    <form id="adoption-form" name="adoption-form" action="confirm" method="POST">
+        <label>What type of Pet would you like to adopt?
+            <input type="text" id="petType" name="pet_type">
+        </label>
+        <label>Quantity:
+            <input type="text" id="quantity" name="quantity">
+        </label>
+        <label>Color:
+            <input type="text" id="color" name="color">
+        </label>
+        <button type="submit" id="submitOrder">Submit Order</button>
+        <p id="output"></p>
+    </form>
+    
+</body>
+</html>
